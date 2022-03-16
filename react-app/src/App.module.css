@@ -1,0 +1,17 @@
+.app {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: aqua;
+}
+
+
+.imgWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  margin: 10px 50px 10px 10px
+}
