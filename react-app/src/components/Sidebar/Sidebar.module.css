@@ -1,7 +1,7 @@
 .sidebar {
     height: 100%;
     width: 250px;
-    background: yellow;
+    background: #99cfff;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,11 +10,12 @@
 .container {
     height: 60%;
     width: 100%;
-    background: blue;
     display: flex;
     flex-direction: row;
 }
 
 .content {
     padding: 10px;
+    width: 100%;
+    background: #f0f8ff
 }
