@@ -1,7 +1,7 @@
 import styles from './Sidebar.module.css'
 
 
-export const Sidebar = ({children}) => {
+export const Sidebar = ({children, containerStyles}) => {
 
     return <div className={styles.container}>
         <aside className={styles.sidebar}>
@@ -48,7 +48,7 @@ export const Sidebar = ({children}) => {
 
 
         </aside>
-        <main className={styles.content}>
+        <main className={containerStyles ? containerStyles : styles.content}>
             {children}
         </main>
     </div>

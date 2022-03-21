@@ -1,7 +1,7 @@
-import {Sidebar} from "../Sidebar/Sidebar";
-import styles from './MainPage.module.css'
 import {useState} from "react";
 import {TextField} from "@mui/material";
+import {Sidebar} from "../Sidebar/Sidebar";
+import styles from './MainPage.module.css'
 
 export const MainPage = () => {
     const [name, setName] = useState('Unknown!')
