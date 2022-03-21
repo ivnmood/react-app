@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .container {
@@ -18,4 +19,19 @@
     padding: 10px;
     width: 100%;
     background: #f0f8ff
+}
+
+.row {
+    display: flex;
+}
+
+.center {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.button {
+    margin-right: 10px;
 }

@@ -11,10 +11,13 @@
     width: 300px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .link {
     text-decoration: none;
+}
 
+.logo {
+    position: absolute;
+    left: 50px;
 }

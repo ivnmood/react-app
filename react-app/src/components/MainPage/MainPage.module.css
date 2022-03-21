@@ -1,0 +1,13 @@
+.imgWrapper {
+  display: flex;
+  align-items: center;
+}
+
+.img {
+  margin: 10px 50px 10px 10px
+}
+
+
+.title {
+  font-family: 'Inspiration', cursive;
+}
